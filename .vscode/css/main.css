@@ -1,0 +1,141 @@
+/*-------base styles--------*/
+:root {
+  --black: #222;
+  --green: #45d02a;
+  --sky-blue: #01b6ff;
+  --gold: #ffc300;
+  --font-family: "Montserrat", sans-serif;
+  --second-family: "Roboto Flex", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-weight: 600;
+  font-size: 20px;
+  color: #000;
+}
+
+.wrapper {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+[class*=__container] {
+  max-width: 1170px;
+  margin: 0 auto;
+  padding: 0;
+}
+@media (max-width: 1280px) {
+  [class*=__container] {
+    max-width: 1020px;
+  }
+}
+@media (max-width: 1110px) {
+  [class*=__container] {
+    max-width: 960px;
+  }
+}
+@media (max-width: 990px) {
+  [class*=__container] {
+    padding: 0 40px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 570px) {
+  [class*=__container] {
+    padding: 0px 20px;
+  }
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+a,
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+  background: none;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*------pages-----------*/

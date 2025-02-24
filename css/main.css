@@ -1,0 +1,8 @@
+/*-------base styles--------*/
+@import "./base.css";
+@import "./reset.css";
+@import "./components/header.css";
+@import "./components/footer.css";
+
+/*------pages-----------*/
+@import "./pages/main-page.css";
